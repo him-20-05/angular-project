@@ -1,1 +1,89 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin-left: 5%;
+    margin-right:5%;
+}
+.app{
+    background: #E3E6E6;
+    min-height: 100vh;
+    padding:20px;
+   
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background: white;
+    max-width: 400px;
+    min-width: 375px;
+    border-radius: 10px;
+   border: 1px solid grey;
+    padding: 50px;
+    align-items: center;
+}
+.form-class{
+
+    display:flex;
+    margin:auto;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+}
+.input-class{
+    width:100%;
+    text-align: center;
+    font-size: 25px;
+    height: auto;
+    padding: 0x;
+    outline: none;
+    border: 1px solid black;
+    margin: 5px 0;
+    justify-content: center;
+    margin-bottom: 20px;
+   
+
+}
+.button-class{
+    width:100%;
+    text-align: center;
+    font-size: 25px;
+    height: auto;
+    padding: 0px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 5px 0;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #fbc000;
+
+}
+.apps{
+    background: white;
+}
+h1{
+    color: darkblue;
+    font-family: fantasy;
+    
+}
+.carousel-caption{
+    background-color: #00000082;
+    border-radius: 5px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 5px;
+}
+.invalid-value{
+    font-size: 12px;
+    color: red;
+    margin-top:-20px ;
+}
+button:disabled{
+    cursor: not-allowed;
+}

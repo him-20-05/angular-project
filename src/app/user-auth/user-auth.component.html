@@ -1,0 +1,38 @@
+<div class="app flex">
+    <div *ngIf="!showlogin" class="card">
+        <h1 class="flex">User Sign-Up</h1>
+    <form class="form-class" #userSignUp="ngForm" (ngSubmit)="signUp(userSignUp.value)">
+        <label>Your name</label>
+        <input type="text" placeholder="First and Last Name" class="input-class" ngModel name="name" required/>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter User Email" class="input-class" ngModel name="email" required/>
+
+        <label>Password</label>
+        <input type="password" placeholder="Atleast 6 characters" maxlength="1024" class="input-class" ngModel name="password" required/>
+        
+
+        <button type="submit"class="button-class">Sign-Up</button>
+        <a (click) = "openLogin()" class="toggle-link"> Already have account? Click to Login</a>
+        </form>
+</div>
+<div *ngIf="showlogin" class="card">
+    <h1 class="flex">User - Login</h1>
+    <form class="form-class" #userLogIn="ngForm" (ngSubmit)="LogIn(userLogIn.value)">
+       
+        <p class="error">{{authError}}</p>
+        <label>Email</label>
+        <input type="email" placeholder="Enter User Email" class="input-class" ngModel name="email" #email="ngModel" required email/>
+        <p class="invalid-value"><span *ngIf="email.invalid && email.touched">Please Enter a Valid Value</span></p>
+
+        <label>Password</label>
+        <input type="password" placeholder="Atleast 6 characters"  maxlength="20" minlength="2" class="input-class" ngModel name="password" #password="ngModel" required/>
+        <p class="invalid-value"><span *ngIf="password.invalid && password.touched">Please Enter a Valid Value</span></p>
+
+        <button type="submit"class="button-class" [disabled]="userLogIn.invalid">Login</button>
+
+        <a (click) = "openSignUp()" class="toggle-link"> Don't have account? Click to Sign-up</a>
+
+    </form>
+</div>
+</div>

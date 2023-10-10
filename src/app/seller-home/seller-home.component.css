@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.product-list {
+    text-align: center;
+    
+}
+
+table {
+    text-align: center;
+    color: darkblue;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    padding: 10px;
+    border: 1px solid black;
+    min-height: fit-content;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+.delete-message{
+    color:red;
+    text-align: center;
+    font-size: x-large;
+}

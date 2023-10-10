@@ -1,0 +1,172 @@
+{
+  "seller": [
+    {
+      "name": "Himanshu",
+      "mobile": 42424242,
+      "email": "test@gmail.com",
+      "password": "15454584",
+      "id": 1
+    },
+    {
+      "name": "ANDY",
+      "mobile": 584864854,
+      "email": "04amazonprime@gmail.com",
+      "password": "fwuhujcfhnuew",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "I-phone 15",
+      "price": "100000",
+      "color": "Black",
+      "category": "Mobiles",
+      "description": "I-phone Mobiles",
+      "image": "https://m.media-amazon.com/images/I/414Et8BZIlL._SX300_SY300_QL70_FMwebp_.jpg",
+      "id": 1
+    },
+    {
+      "name": "Samsung Galaxy S23",
+      "price": "15000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "Samsung Phones",
+      "image": "https://cdn1.smartprix.com/rx-ifgMKUMYY-w420-h420/samsung-galaxy-s23-5.webp",
+      "id": 2
+    },
+    {
+      "name": "Hp Laptop",
+      "price": "45000",
+      "color": "Grey",
+      "category": "Laptop",
+      "description": "Hp Laptop",
+      "image": "https://images.hindustantimes.com/tech/img/2021/12/17/960x540/DSC_1300_1639757802261_1639757843934.jpg",
+      "id": 3
+    },
+    {
+      "name": "Sports Shoe",
+      "price": "8000",
+      "color": "White",
+      "category": "Shoes",
+      "description": "Adidas Shoe",
+      "image": "https://rukminim2.flixcart.com/image/850/1000/l0pm3680/shoe/e/9/w/9-fx3631-9-adidas-ftwwht-ftwwht-gretwo-original-imagcfspcm7nhh8y.jpeg?q=20",
+      "id": 4
+    },
+    {
+      "name": "Watch",
+      "price": "10000",
+      "color": "Black",
+      "category": "Watches",
+      "description": "Fossil Watches for men",
+      "image": "https://5.imimg.com/data5/ANDROID/Default/2022/4/QQ/DE/CJ/79306562/product-jpeg-500x500.jpg",
+      "id": 5
+    },
+    {
+      "name": "Jacket",
+      "price": "6000",
+      "color": "Blue",
+      "category": "Jacket",
+      "description": "Denim Jacket for Men",
+      "image": "https://rukminim1.flixcart.com/image/850/1000/xif0q/jacket/z/x/o/l-no-denim-jacket-denimwala-original-imagkzhuzqhppmzh.jpeg?q=90",
+      "id": 6
+    },
+    {
+      "name": "Trouser",
+      "price": "3000",
+      "color": "Black",
+      "category": "Jeans",
+      "description": "Levis Jeans",
+      "image": "https://www.levi.in/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw8e5014fb/images/hi-res/182980496/182980496_01_Front.jpg",
+      "id": 7
+    },
+    {
+      "name": "Headphones",
+      "price": "1500",
+      "color": "Black",
+      "category": "HeadPhones",
+      "description": "Boat Headphones",
+      "image": "https://m.media-amazon.com/images/I/41Beq4WLggL._SX300_SY300_QL70_FMwebp_.jpg",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "name": "Media Plan",
+      "email": "04amazonprime@gmail.com",
+      "password": "dsvssaccsasac",
+      "id": 1
+    },
+    {
+      "name": "new",
+      "email": "test@gmail.com",
+      "password": "yvyftyft",
+      "id": 2
+    },
+    {
+      "name": "Bruce",
+      "email": "bruce@gmail.com",
+      "password": "15411466",
+      "id": 3
+    },
+    {
+      "name": "cruise",
+      "email": "crusise@gmail.com",
+      "password": "848544",
+      "id": 4
+    },
+    {
+      "name": "krish",
+      "email": "krish@gmail.com",
+      "password": "Papamummy",
+      "id": 5
+    }
+  ],
+  "cart": [
+    {
+      "name": "Samsung Galaxy S23",
+      "price": "15000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "Samsung Phones",
+      "image": "https://cdn1.smartprix.com/rx-ifgMKUMYY-w420-h420/samsung-galaxy-s23-5.webp",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 2,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "email": "",
+      "address": "",
+      "contact": "",
+      "totalPrice": 168950,
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "email": "test@gmail.com",
+      "address": "new delhi",
+      "contact": "959595956",
+      "totalPrice": 168950,
+      "userId": 3,
+      "id": 2
+    },
+    {
+      "email": "test@gmail.com",
+      "address": "new delhi ",
+      "contact": "51541541",
+      "totalPrice": 118350,
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "email": "04amazonprime@gmail.com",
+      "address": "dvsscasasc",
+      "contact": "sccsacsacsacsasc",
+      "totalPrice": 133200,
+      "userId": 3,
+      "id": 4
+    }
+  ]
+}

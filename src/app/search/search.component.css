@@ -1,0 +1,24 @@
+.search-item{
+    margin: 25px auto;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    width: 800px;
+}
+img{
+    width: 100%;
+}
+h6{
+    font-size:x-large;
+    font-weight: 600;
+    color: darkblue;
+}
+.search-item p{
+    margin: 5px;
+}
+.noResult{
+    font-size: xxx-large;
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+    color: red;
+}

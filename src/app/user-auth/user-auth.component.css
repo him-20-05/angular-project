@@ -1,0 +1,15 @@
+label{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.toggle-link{
+    color : blue;
+    cursor: pointer;
+    text-align: center;
+    font-size: larger;
+}
+.error{
+    color:red;
+    font-size:large;
+}

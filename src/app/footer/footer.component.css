@@ -1,0 +1,33 @@
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.footer li {
+    display: inline-block;
+    margin-right: 20px; /* Increase the margin to add more space */
+}
+
+/* .footer {
+    display: flex;
+    justify-content: space-evenly;
+} */
+a{
+    text-decoration: none;
+    font-size:larger;
+    font-weight: 500;
+}
+h6{
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+}
+.footer{
+    padding: 1px;
+    text-align: center;
+    flex-direction: column;
+
+    
+}

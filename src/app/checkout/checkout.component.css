@@ -1,0 +1,28 @@
+.checkout-page h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h3{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: darkblue;
+    font-family: fantasy;
+}
+label{
+    font-size: 20px;
+    font-weight: 700;
+}
+.payment-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.p-message{
+    color:green;
+    text-align: center;
+    font-size: x-large;
+}

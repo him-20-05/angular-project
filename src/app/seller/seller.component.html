@@ -1,0 +1,49 @@
+<div class="app flex">
+    <div *ngIf="!showlogin" class="card">
+        <h1 class="flex">Create Account</h1>
+        <p class="error">{{signUpError}}</p>
+        <form class="form-class" #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)">
+            <label>Your name</label>
+            <input type="text" placeholder="First and Last Name" class="input-class" ngModel name="name" required/>
+
+            <label>Mobile Number</label>
+            <input type="number" placeholder="Mobile Number" class="input-class" ngModel name="mobile" required/>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter User Email" class="input-class" ngModel name="email" required/>
+
+            <label>Password</label>
+            <input type="password" placeholder="Atleast 6 characters" maxlength="1024" class="input-class" ngModel name="password" required/>
+
+            <!-- Error message for required fields -->
+            <!-- <div *ngIf="sellerSignUp.invalid && (sellerSignUp.dirty || sellerSignUp.touched)">
+                Please fill in all required fields.
+            </div> -->
+            
+
+            <button type="submit"class="button-class">Continue</button>
+
+            <a (click) = "openLogin()" class="toggle-link"> Already have account? Click to Login</a>
+
+        </form>
+    </div>
+    <!--Login Form-->
+    <div *ngIf="showlogin" class="card">
+        <h1 class="flex">Login</h1>
+        <p class="error">{{authError}}</p>
+        <form class="form-class" #sellerLogIn="ngForm" (ngSubmit)="LogIn(sellerLogIn.value)">
+           
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter User Email" class="input-class" ngModel name="email"/>
+
+            <label>Password</label>
+            <input type="password" placeholder="Atleast 6 characters" maxlength="1024" class="input-class" ngModel name="password"/>
+
+            <button type="submit"class="button-class">Continue</button>
+
+            <a (click) = "openSignUp()" class="toggle-link"> Don't have account? Click to Sign-up</a>
+
+        </form>
+    </div>
+</div>

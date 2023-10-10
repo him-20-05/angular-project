@@ -1,0 +1,32 @@
+<div class="app flex">
+    <div  class="">
+        <h1 class="flex">Add Product</h1>
+        <p class="p-message">{{addProductMessage}}</p>
+        <form class="form-class" #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)">
+            
+            <input type="text" placeholder="Enter Product Name" class="input-class" ngModel name="name" />
+
+            
+            <input type="Text" placeholder="Enter Product Price" class="input-class" ngModel name="price" />
+
+           
+            <input type="text" placeholder="Enter Product Color" class="input-class" ngModel name="color"/>
+
+            
+            <input type="text" placeholder="Enter Product Category" class="input-class" ngModel name="category" />
+
+            <textarea type="text" class="input-class" placeholder="Enter Product Description" name="description" ngModel></textarea>
+
+            <input type="text" placeholder="Enter Product Image URL" class="input-class" ngModel name="image" />
+
+
+           
+
+            <button type="submit"class="button-class">Add Product</button>
+
+            
+
+        </form>
+    </div>
+    </div>
+    
